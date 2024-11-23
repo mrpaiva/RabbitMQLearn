@@ -4,9 +4,9 @@ using System.Text;
 
 var factory = new ConnectionFactory 
 { 
-    HostName = "rabbit.virtusit.co",
+    HostName = "localhost",
     UserName = "mrpaiva",
-    Password = "!Angelica@401!"
+    Password = "********"
 };
 
 using var connection = await factory.CreateConnectionAsync();

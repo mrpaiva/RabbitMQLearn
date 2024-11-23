@@ -2,8 +2,8 @@
 using System.Text;
 using System.Web;
 
-var encodedPassword = HttpUtility.UrlEncode("!Angelica@401!");
-var uri=new Uri($"amqp://mrpaiva:{encodedPassword}@rabbit.virtusit.co/");
+var encodedPassword = HttpUtility.UrlEncode("********");
+var uri=new Uri($"amqp://mrpaiva:{encodedPassword}@localhost/");
 
 var factory = new ConnectionFactory{
     Uri = uri,
