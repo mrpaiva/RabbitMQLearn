@@ -1,2 +1,9 @@
-Worker/bin/
-Worker/obj/
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+**/bin
+**/obj
