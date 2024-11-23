@@ -123,5 +123,5 @@ ClientBin/
 *.pfx
 *.publishsettings
 
-bin/
-obj/
+**/bin/
+**/obj/
