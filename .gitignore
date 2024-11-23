@@ -1,12 +1,2 @@
-# Visual Studio files
-.vs/
-*.user
-*.userosscache
-*.sln.docstates
-*.userprefs
-
-**/bin
-**/obj
-
 Worker/bin/
 Worker/obj/
